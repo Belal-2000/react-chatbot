@@ -6,8 +6,8 @@ import { useState } from 'react'
 
 function App() {
   const [messages, setMessages] = useState([
-    { id: crypto.randomUUID(), content: "I need your help", role: "user" },
-    { id: crypto.randomUUID(), content: "Hello! How can I assist you today?", role: "assistant" },
+    // { id: crypto.randomUUID(), content: "I need your help", role: "user" },
+    // { id: crypto.randomUUID(), content: "Hello! How can I assist you today?", role: "assistant" },
     // { id: crypto.randomUUID(), content: "I have a question about my order", role: "user" },
     // { id: crypto.randomUUID(), content: "Hello! How can I assist you todayasdasdddddd asddddddddd asddddddddddddasdasd asdas asddddddddddddd asd asd asd asd asdojwopqd jmfdsmvs'djkf a?", role: "assistant" },
   ])
