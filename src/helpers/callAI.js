@@ -1,6 +1,5 @@
 import OpenAI from "openai";
 
-console.log(import.meta.env.VITE_AI_KEY)
 
 const client = new OpenAI({
   baseURL: "https://openrouter.ai/api/v1",
